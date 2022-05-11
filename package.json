@@ -1,0 +1,46 @@
+{
+  "name": "reaction-roles",
+  "version": "1.0.0",
+  "description": "Reaction roles bot.",
+  "main": "index.js",
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "asynckit": "^0.4.0",
+    "combined-stream": "^1.0.8",
+    "delayed-stream": "^1.0.0",
+    "discord-api-types": "^0.32.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "form-data": "^4.0.0",
+    "mime-db": "^1.52.0",
+    "mime-types": "^2.1.35",
+    "node-fetch": "^2.6.7",
+    "tr46": "^0.0.3",
+    "ts-mixer": "^6.0.1",
+    "tslib": "^2.4.0",
+    "webidl-conversions": "^3.0.1",
+    "whatwg-url": "^5.0.0",
+    "ws": "^8.6.0",
+    "zod": "^3.15.1"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Steviegt6/reaction-roles.git"
+  },
+  "author": "Tomat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Steviegt6/reaction-roles/issues"
+  },
+  "homepage": "https://github.com/Steviegt6/reaction-roles#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
